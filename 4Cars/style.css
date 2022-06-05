@@ -1,0 +1,110 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: tahoma;
+}
+
+.logo-inicio img {
+    width: 20vw;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 25vw 3fr 1fr;
+    align-items: center;
+    
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu a::after {
+    content: "";
+    width: 0px;
+    height: 4px;
+    background-color: rgb(255, 92, 92);
+    display: grid;  
+    transition: all 0.5s;
+}
+
+.menu a:hover::after {
+    width: 50px;
+
+}
+
+.menu a:hover {
+    color: rgb(255, 92, 92);
+    transition: all 0.5s; 
+}
+
+header input {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(255, 92, 92);
+}
+
+header input:hover {
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#inicio .chamada {
+   display: grid;
+   margin-top: 2vw;
+   margin-bottom: 4vw;
+   background-color: rgb(255, 92, 92);
+  
+   padding: 5vw;
+   margin: 0 auto;
+}
+
+#inicio h1 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 2vw;
+}
+
+#inicio .localizar-carros input {
+    border-radius: 12px;
+    padding: 1vw;
+    width: 25vw;
+    margin-right: 2vw;
+    border: none;
+}
+
+#inicio .img-capa img {
+    width: 100%;
+    opacity: 0.7;
+    
+}
+
+#inicio .frase h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#inicio .frase p {
+    display:flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#inicio .frase {
+    position: absolute;
+    opacity: 1;
+    left: 20%;
+    top: 90%;
+    
+}
