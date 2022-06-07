@@ -65,7 +65,6 @@ header input:hover {
    margin-top: 2vw;
    margin-bottom: 4vw;
    background-color: rgb(255, 92, 92);
-  
    padding: 5vw;
    margin: 0 auto;
 }
@@ -107,4 +106,42 @@ header input:hover {
     left: 20%;
     top: 90%;
     
+}
+
+#quem-somos h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 50px;
+    background-color: rgb(255, 92, 92);
+    margin-top: 20px;
+}
+
+#quem-somos div{
+    display: grid;
+    grid-template-columns: 700px 150px 560px;
+    align-items: center;
+}
+
+#quem-somos div ul{
+    list-style: none;
+}
+
+#quem-somos div ul li{
+    padding-top: 50px;
+    text-align: justify;
+}
+
+#quem-somos div ul p{
+    padding-top: 8px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#quem-somos div ul li img{
+    width: 80px
+}
+
+#lista-icones{
+    padding-top: 20px;
 }
