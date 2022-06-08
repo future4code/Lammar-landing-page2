@@ -151,6 +151,39 @@ header input:hover {
     
 }
 
+.titulo-plano {
+    text-align: center;
+    font-size: 32px;
+}
+
+.nav-planos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 14px;
+    align-items: center;
+    padding: 18px;
+}
+
+.div-planos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-plano {
+    width: 90%;  
+}
+
+.lista-planos {
+    list-style: none;
+    text-align: center;
+}
+
+.item-planos {
+    text-align: center;
+    font-size: 26px;
+}
+
 #trabalhe-conosco h1{
     text-align: center;
     padding-top: 20px;
