@@ -61,12 +61,12 @@ header input:hover {
 }
 
 #inicio .chamada {
-   display: grid;
-   margin-top: 2vw;
-   margin-bottom: 4vw;
-   background-color: rgb(255, 92, 92);
-   padding: 5vw;
-   margin: 0 auto;
+    display: grid;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    background-color: rgb(255, 92, 92);
+    padding: 5vw;
+    margin: 0 auto;
 }
 
 #inicio h1 {
@@ -115,6 +115,7 @@ header input:hover {
     line-height: 50px;
     background-color: rgb(255, 92, 92);
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #quem-somos div{
@@ -143,5 +144,63 @@ header input:hover {
 }
 
 #lista-icones{
+    padding-top: 30px;
+}
+
+#quem-somos div ul li h2:hover{
+    
+}
+
+#trabalhe-conosco h1{
+    text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 92, 92);
+    margin-top: 80px;
+}
+
+#trabalhe-conosco h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#trabalhe-conosco h3{
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#trabalhe-conosco p{
+    margin-left: 60px;
+    margin-bottom: 20px;    
+}
+
+#trabalhe-conosco div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin-top: 20px;
+    row-gap: 30px;
+    margin-left: 0px;
+}
+
+#trabalhe-conosco div ul li {
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    color: rgb(255, 92, 92);
+    height: 50px;   
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+#trabalhe-conosco div ul a {
+    text-decoration: none;  
+}
+
+#trabalhe-conosco div ul a:hover {
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 92, 92);
 }
