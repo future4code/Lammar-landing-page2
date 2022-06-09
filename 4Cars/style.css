@@ -102,27 +102,30 @@ header input:hover {
 
 .frase {
     position: absolute;
+    width: 100%;
+    height: 100%;
     top: 0%;
     text-align: center;
     background-color: rgba(0,0,0,0.5);
-    padding: 24vh;
-    padding-bottom: 2.5vw;
-    line-height: 10em;
+    
+    line-height: 100px;
+    
 
 }
 
 .frase h2 {
     font-size: 5em;
+    padding-top: 10%;
 }
 
 .frase h2 {
-    font-size: 5em;
+    font-size: 56px;
 }
 
 
 .frase span {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 32px;
 }
 
 #tanque {
@@ -131,13 +134,14 @@ header input:hover {
 
 
 .frase button {
-    padding: 1.5em;
+    padding: 20px;
     font-size: 1.5em;
     font-weight: bold;
     border-radius: 1em;
     border: none;
     background-color: rgb(255, 92, 92);
     color: white;
+    margin-left: 20px;
 }
 
 .frase button:hover {
