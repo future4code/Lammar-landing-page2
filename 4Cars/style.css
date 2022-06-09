@@ -65,7 +65,6 @@ header input:hover {
    margin-top: 2vw;
    margin-bottom: 4vw;
    background-color: rgb(255, 92, 92);
-  
    padding: 5vw;
    margin: 0 auto;
 }
@@ -84,27 +83,52 @@ header input:hover {
     border: none;
 }
 
-#inicio .img-capa img {
+.slogan {
+    position: relative;
+    color: white;
+    
+}
+.slogan img {
     width: 100%;
-    opacity: 0.7;
     
-}
+} 
 
-#inicio .frase h2 {
-    font-size: 45px;
-    font-weight: bold;
-}
-
-#inicio .frase p {
-    display:flex;
-    align-items: center;
-    padding: 10px;
-}
-
-#inicio .frase {
+.frase {
     position: absolute;
-    opacity: 1;
-    left: 20%;
-    top: 90%;
-    
+    top: 0%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 24vh;
+    padding-bottom: 2.5vw;
+    line-height: 10em;
+}
+
+.frase h2 {
+    font-size: 5em;
+}
+
+.frase span {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#tanque {
+    color:rgb(255, 92, 92);
+}
+
+.frase button {
+    padding: 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 1em;
+    border: none;
+    background-color: rgb(255, 92, 92);
+    color: white;
+}
+
+.frase button:hover {
+    background-color: white;
+    color:rgb(255, 92, 92);
+    transition: all 0.6s;
+    cursor: pointer;
 }
