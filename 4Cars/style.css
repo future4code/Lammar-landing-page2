@@ -102,7 +102,6 @@ header input:hover {
 
 .frase {
     position: absolute;
-
     top: 0%;
     text-align: center;
     background-color: rgba(0,0,0,0.5);
@@ -114,8 +113,6 @@ header input:hover {
 
 .frase h2 {
     font-size: 5em;
-}
-
 }
 
 .frase h2 {
@@ -148,15 +145,6 @@ header input:hover {
     color:rgb(255, 92, 92);
     transition: all 0.6s;
     cursor: pointer;
-}
-
-#inicio .frase {
-    position: absolute;
-
-    opacity: 1;
-    left: 20%;
-    top: 90%;
-    
 }
 
 #quem-somos h1{
@@ -196,10 +184,6 @@ header input:hover {
 
 #lista-icones{
     padding-top: 30px;
-}
-
-#quem-somos div ul li h2:hover{
-    
 }
 
 .titulo-plano {
