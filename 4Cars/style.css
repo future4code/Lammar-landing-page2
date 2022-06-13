@@ -277,3 +277,109 @@ header input:hover {
     text-decoration-color: rgb(255, 92, 92);
 
 }
+
+
+
+
+/* FOOTER - ultima parte do codigo */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.623);
+    margin-top: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.logo-fim img {
+    width: 20vw;
+    margin-left: -30vw;
+}
+
+.redes-sociais {
+    line-height: 5em;
+    margin-left: 2px;
+    align-items: center;
+}
+
+.redes-sociais h3 {
+    font-size: 30px;
+    line-height:5em;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.redes-sociais button {
+    font-size: 30px;
+    padding: 0.5em;
+    background-color: rgb(255, 92, 92);
+    border: none;
+    border-radius: 12px;
+    margin-left: 18px;
+}
+
+.redes-sociais button i { 
+    font-size: 34px;
+    color: black;
+}
+
+.box {
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    
+
+}
+fieldset {
+    border-radius: 12px;
+    border: 1px solid rgb(255, 92, 92);
+    font-size: 24px
+}
+.input-box {
+    padding: 5px;
+}
+
+.input-box input {
+    padding: 15px;
+    padding-right: 175px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 12px;
+    font-family: tahoma;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-box textarea {
+    padding-right: 50px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 12px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#submit {
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    font-family: tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 92, 92);
+}
+
+#submit:hover {
+    background-color: black;
+    color: rgb(255, 92, 92);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
