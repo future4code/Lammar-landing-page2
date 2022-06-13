@@ -296,8 +296,10 @@ footer {
 }
 
 .logo-fim img {
-    width: 20vw;
-    margin-left: -30vw;
+    width: 30vw;
+    position: relative;
+    right: 10vw
+    
 }
 
 .redes-sociais {
