@@ -215,11 +215,9 @@ header input:hover {
 
 .lista-planos {
     list-style: none;
-    text-align: center;
 }
 
 .item-planos {
-    text-align: center;
     font-size: 26px;
 }
 
