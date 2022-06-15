@@ -50,7 +50,7 @@
                     <h2>
                         Aqui você encontra conforto, qualidade e desconto!
                     </h2>
-                    <span>Dirija por aí sem pensar em despesas, saia da 4Cars com o </span><span id="tanque"> TANQUE CHEIO </span><span>sem alteração no valor!</span>
+                    <span>Dirija por aí sem pensar em despesas, saia da 4Cars com o </span><span id="tanque"> TANQUE CHEIO </span><span>sem alteração no valor</span>
                     <a href="#carros"><button>Confira aqui!</button></a>
                 </div>
             </section>
@@ -166,31 +166,34 @@
 
     <footer>
         <div class="logo-fim">
-            <img src="img/4cars-logo.png" alt="Logo - desenho de um carro laranja '4Cars' slogan:'Nosso carro sua chance.'">
+            <a href="#inicio"><img src="img/4cars-logo-sem-fundo.png" alt="Logo - desenho de um carro laranja '4Cars' slogan:'Nosso carro sua chance.'"></a>
         </div>
-        <div id="redes-sociais">
+        <div class="redes-sociais">
             <h3>Sigam-nos:</h3>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://twitter.com/login?lang=pt"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://pt-br.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <button><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></button>
+            <button><a href="https://twitter.com/login?lang=pt"><i class="fa-brands fa-twitter"></i></a></button>
+            <button><a href="https://pt-br.facebook.com/"><i class="fa-brands fa-facebook"></i></a></button>
         </div>
 
         
-        <form action="#" method="post" class="fale-conosco-form">
-            <div>
-                <label for="nome">Nome Completo</label>
-                <input type="text" name="nome" id="nome-user">
-            </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email-user">
-            </div>
-            <div>
-                <label for="assunto">Assunto:</label>
-                <textarea name="assunto" id="assunto-user" cols="30" rows="10"></textarea>
-            </div>
-
-        </form>
+        <div class="box">
+            <form action="#">
+                <fieldset>
+                    <legend>Fale conosco</legend>
+                    <div class="input-box">
+                        <input type="text" name="nome" id="nome-user" placeholder="Nome completo">
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" id="email-user" placeholder="Email">
+                        
+                    </div>
+                    <div class="input-box">
+                        <textarea name="assunto" id="assunto-user" placeholder="Assunto" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" name="submit" id="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
         
 
     </footer>
