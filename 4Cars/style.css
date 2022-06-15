@@ -196,7 +196,9 @@ header input:hover {
 
 .titulo-plano {
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
+    background-color: rgb(255, 92, 92);
+    padding: 14px;
 }
 
 .nav-planos {
@@ -217,12 +219,44 @@ header input:hover {
     width: 90%;  
 }
 
-.lista-planos {
-    list-style: none;
-}
 
 .item-planos {
     font-size: 26px;
+}
+
+.carros-passo {
+    background: #f2f2f2;
+    margin: 0;
+}
+
+.h2-background {
+    background-color: rgb(255, 92, 92);
+    font-size: 2em;
+    padding: 20px;
+}
+
+.pesquisa {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.pesquisa p {
+    font-size: 26px;
+}
+
+.input {
+    padding: 12px 26px;
+    width: 35%;
+}
+
+.botao {
+    padding: 12px 26px;
+
+}
+
+#perguntas {
+    margin-left: 20px;
+    font-size: 2em;
 }
 
 /* Página Trabalhe Conosco*/
