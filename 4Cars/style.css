@@ -144,17 +144,21 @@ header input:hover {
     cursor: pointer;
 }
 
-/* Página Quem Somos */
+/* Seção Quem Somos */
+#quem-somos {
+    margin-bottom: 80px;
+}
 
 #quem-somos h1{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 50px;
-    background-color: rgb(255, 92, 92);
-    margin-top: 20px;
+    background-color: rgb(255, 92, 92); 
     margin-bottom: 20px;
     font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #quem-somos div{
@@ -162,6 +166,10 @@ header input:hover {
     grid-template-columns: .75fr 1fr;
     margin-right: 2vw;
     margin-left: 2vw;
+}
+
+#quem-somos div img{
+    width: 500px;
 }
 
 #quem-somos div ul{
@@ -184,7 +192,6 @@ header input:hover {
     line-height: 30px;
     font-size: 1.2em;
 }
-
 
 #quem-somos div ul li img{
     width: 80px;
@@ -259,7 +266,7 @@ header input:hover {
     font-size: 2em;
 }
 
-/* Página Trabalhe Conosco*/
+/* Seção Trabalhe Conosco*/
 
 #trabalhe-conosco h1{
     text-align: center;
@@ -284,7 +291,7 @@ header input:hover {
     font-size: 1.5em;
 }
 
-#trabalhe-conosco p{
+#trabalhe-conosco h4{
     margin-left: 60px;
     margin-bottom: 20px;   
     font-size: 1.5em; 
@@ -296,7 +303,7 @@ header input:hover {
     list-style: none;
     margin-top: 4vh;
     row-gap: 3vh;
-
+    margin-bottom: 6vh;
 }
 
 #trabalhe-conosco div ul li {
@@ -318,10 +325,59 @@ header input:hover {
 #trabalhe-conosco div ul a:hover {
     text-decoration:underline;
     text-decoration-color: rgb(255, 92, 92);
-
 }
 
+#depoimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 4vh;
+}
 
+#depoimentos section {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(165, 165, 165);
+    border-radius: 20px;
+    padding-top: 2vh;
+    width: 500px;
+    line-height: 35px;
+}
+
+#depoimentos section img {
+    border-radius: 20px;
+    width: 400px;
+}
+
+#depoimentos section p b {
+    color: rgb(255, 92, 92)
+}
+
+#depoimentos section p i {
+    color: rgb(255, 92, 92)
+}
+
+.nome {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.cargo  {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.depoimento {
+    text-align: justify;
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
 
 
 /* FOOTER - ultima parte do codigo */
