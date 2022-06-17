@@ -201,6 +201,8 @@ header input:hover {
     padding-top: 30px;
 }
 
+/* Página Planos */
+
 .titulo-plano {
     text-align: center;
     font-size: 24px;
@@ -264,7 +266,66 @@ header input:hover {
 #perguntas {
     margin-left: 20px;
     font-size: 2em;
+    text-align: center;
 }
+
+/* Página Fale Conosco*/
+
+.container {
+    width: 50%;
+    margin: 2% auto;
+}
+
+.card {
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.input-2 {
+    display:  none;
+}
+
+.subtitulo {
+    display: inline-block;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+div label:hover {
+    background-color: rgb(255, 92, 92);
+    transition: all 0.5s; 
+}
+
+
+.esconde {
+    display: none;
+    padding: 8px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FFF;
+    animation: card3 .25s ease-in-out;
+    overflow: hidden;
+}
+
+.input-2:checked ~ .esconde {
+    display: block;
+}
+
+@keyframes esconde {
+    from {
+        height: 20px;
+    } to {
+        height: auto;
+    }
+}
+
 
 /* Seção Trabalhe Conosco*/
 
