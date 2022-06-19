@@ -1,2 +1,3 @@
 # landing-page-template
-halting-appliance.surge.sh
+hysterical-snow.surge.sh
+
