@@ -25,7 +25,8 @@ Esse projeto teve como objetivo a criação de uma landing page para a empresa 4
 ![8](https://user-images.githubusercontent.com/102440200/174506283-b133859a-2fc6-4b5d-9d93-60dbb44dc58d.PNG)
 
 ### Seção Rodapé
-![9](https://user-images.githubusercontent.com/102440200/174506925-c1cf5d85-d903-41a8-9b48-8b69272a0529.PNG)
+![image](https://user-images.githubusercontent.com/102440200/174507212-921ed7e6-e725-4d04-bc8a-7c297d1e87d9.png)
+
 
 ## Versão Mobile
 
