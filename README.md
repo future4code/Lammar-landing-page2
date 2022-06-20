@@ -2,7 +2,7 @@
 
 Esse projeto teve como objetivo a criação de uma landing page para a empresa 4Cars. A 4Cars é uma empresa fictícia que possui como missão oferecer carros para serem alugados por motoristas a um bom custo-benefício. 
 
-Clique aqui para conferir esse projeto: https://terrible-sneeze.surge.sh
+[Clique aqui](https://terrible-sneeze.surge.sh) para conferir esse projeto!
 
 ## Versão Desktop
 
