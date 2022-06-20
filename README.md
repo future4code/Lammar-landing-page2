@@ -6,7 +6,7 @@ Esse projeto teve como objetivo a criação de uma landing page para a empresa 4
 
 ## Versão Desktop
 
-### Seção Inicial
+### Seção Menu Inicial
 ![1](https://user-images.githubusercontent.com/102440200/174505941-edafbf8a-4bb6-4bc4-b928-cc5e87b28589.PNG)
 ![2](https://user-images.githubusercontent.com/102440200/174506001-162c1081-ed6b-4c99-b7ef-bcd54c05c48e.PNG)
 
@@ -23,6 +23,9 @@ Esse projeto teve como objetivo a criação de uma landing page para a empresa 4
 ### Seção Trabalhe Conosco
 ![7](https://user-images.githubusercontent.com/102440200/174506279-7d952e79-5ca9-4898-9701-ae7dc65adf1a.PNG)
 ![8](https://user-images.githubusercontent.com/102440200/174506283-b133859a-2fc6-4b5d-9d93-60dbb44dc58d.PNG)
+
+### Seção Rodapé
+![9](https://user-images.githubusercontent.com/102440200/174506925-c1cf5d85-d903-41a8-9b48-8b69272a0529.PNG)
 
 ## Versão Mobile
 
