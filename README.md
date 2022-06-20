@@ -26,3 +26,9 @@ Esse projeto teve como objetivo a criação de uma landing page para a empresa 4
 
 ## Versão Mobile
 
+## Linguagens utilizadas
+- CSS
+- HTML
+
+## Link do surge
+Segue o link do surge: https://terrible-sneeze.surge.sh/
