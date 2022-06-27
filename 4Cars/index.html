@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bf07f619d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>4Cars - Aluguel de carros</title>
+</head>
+<body>
+    <header>
+        <a href="#inicio"><div class="logo-inicio">
+            <img src="img/4cars-logo.png" alt="Logo - desenho de um carro laranja '4Cars' slogan:'Nosso carro sua chance.'">
+        </div></a>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#quem-somos">Quem somos</a></li>
+                <li><a href="#carros">Carros</a></li>
+                <li><a href="#fale-conosco">Fale conosco</a></li>
+                <li><a href="#trabalhe-conosco">Trabalhe conosco</a></li>
+            </ul>
+        </nav>
+        <input type="button" value="Login">
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="chamada">
+                <h1>Faça sua reserva aqui:</h1>
+                <form action="#" method="post" class="localizar-carros">
+                    
+                    <label for="cidade"></label>
+                    <input type="search" name="cidade" placeholder="Digite o local de retirada">
+
+                    <label for="data-retirada"></label>
+                    <input type="date" name="data-retirada" id="data-retirada">
+
+                    <label for="hora"></label>
+                    <input type="hour" name="hora" placeholder="Digite a hora...">
+                    
+                </form>
+            </div>
+            <section class="slogan">
+                <img src="img/tipos-de-carros-capa.png" alt="imagem de carros enfileirados e céu azul com nuvens">
+                
+                <div class="frase">
+                    <h2>
+                        Aqui você encontra conforto, qualidade e desconto!
+                    </h2>
+                    <span>Dirija por aí sem pensar em despesas, saia da 4Cars com o </span><span id="tanque"> TANQUE CHEIO </span><span>sem alteração no valor</span>
+                    <a href="#carros"><button>Confira aqui!</button></a>
+                </div>
+            </section>
+
+        </section>
+
+        <section id="quem-somos">
+            <h1> Somos uma empresa especializada em aluguel de carros. Nosso maior objetivo é oferecer um serviço acessível
+                e de qualidade, garantindo a melhor experiência para você!
+            </h1>
+
+            <div>
+                <img src="img/logo-quem-somos-2.png" alt="ícone de um carro vermelho">
+
+                <ul id="lista-icones">
+                    <li>
+                        <img src="img/icone-celular.png" alt="ícone de um celular" >
+                        <div>
+                            <h2>Totalmente digital &#128241</h2>
+                            <p>Você consegue alugar o seu carro de preferência através da nossa plataforma digital.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/icone-papel-rasgado.png" alt="ícone de um papel rasgado">
+                        <div>
+                            <h2>Sem burocracia &#128220</h2>
+                            <p>Pagamentos através do cartão de crédito, boleto bancário ou PIX.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/icone-dinheiro.png" alt="ícone de notas de dinheiro e moedas">
+                        <div>
+                            <h2>Sem taxas abusivas &#128184</h2>
+                            <p>Sem aprovação de crédito e cobrimos o menor preço do mercado.</p>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+
+        </section>
+
+        <section id="carros">
+            <div class="titulo-plano">
+                <h1>
+                    Na 4cars existe um plano feito pra você! <br> Conheça agora mesmo:
+                </h1>
+            </div>
+
+            <nav class="nav-planos">
+                <div class="div-planos">
+                    <img class="card-plano" src="./img/carro-popular.webp" alt="imagem carro popular">
+                    <h3>Grupo popular</h3>
+                    <p>Veículos similares: Fiat Argo 1.0, GM Onix LT 1.0 e VW Polo 1.0 </p>
+                </div>
+
+                <div class="div-planos">
+                    <img class="card-plano" src="./img/carro-de-luxo.png" alt="imagem carro de luxo">
+                    <h3>Grupo de luxo</h3>
+                    <p>Veículos similares: Mercedes AMG GT 63 SE e BMW 320i </p>
+                </div>
+            </nav>
+            <br>
+            <div class="titulo-plano">
+                <h2>Fácil, rápido e sem burocracia!</h2>
+            </div>
+
+            <div class="carros.passo">
+                <img width="100%" src="./img/passo-a-passo.png" alt="passo a passo para alugar">
+            </div>
+        </section>
+
+        <section id="fale-conosco">
+            <div class="pesquisa">
+                <h2 class="h2-background">Atendimento 4Cars</h2>
+                <br>
+                <p><strong>Como nós podemos te ajudar?</strong></p>
+                <p>Use o campo de busca para nos perguntar</p>
+                <form>
+                    <input class="input" type="text" class="input-padrao" placeholder="Faça sua busca aqui :)">
+                    <input class="botao" type="submit" value="Enviar">
+                </form>
+            </div>
+            <h2 id="perguntas">A sua dúvida pode ter sido a dúvida de outra pessoa, confira abaixo:</h2>
+            <div class="container">
+                <div class="card">
+                    <input class="input-2" type="checkbox" id="card1">
+                    <label class="subtitulo" for="card1">O que preciso para retirar o carro? </label>
+                    <div class="esconde">
+                        <p>Para garantir sua reserva, pedimos para que você pague a entrada, o valor do aluguel fica a seu critério,
+                            via cartão de crédito, boleto bancário ou PIX. Ai é só passar na agência de sua preferência e retirar seu 4Cars.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <input class="input-2" type="checkbox" id="card2">
+                    <label class="subtitulo" for="card2">Qual o valor da franquia? </label>
+                    <div class="esconde">
+                        <p>Em caso de <strong>acidentes</strong> é cobrado R$1.600 para reparar o dano causado. Se houver terceiros envolvidos
+                        será cobrado R$1.600 para cada veículo envolvido. Caso ocorra <strong>roubo</strong> se for avisado em até 6 horas após o ocorrido 
+                        será cobrado o valor de R$1.600, se ultrapassar esse tempo, será cobrado R$6.000.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <input class="input-2" type="checkbox" id="card3">
+                    <label class="subtitulo" for="card3">Posso parcelar o pagamento? </label>
+                    <div class="esconde">
+                        <p>Caso faça o pagamento por cartão de crédito, sim, aceitamos parcelamentos. Já se os pagamentos forem via boleto bancário
+                            ou PIX, não há como parcelar, somente a vista.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <input class="input-2" type="checkbox" id="card4">
+                    <label class="subtitulo" for="card4">Como proceder caso atrase um pagamento? </label>
+                    <div class="esconde">
+                        <p>É muito importante não atrasar s pagamentos do seu veículo, porque caso isso ocorra o carro é bloqueado automáticamente
+                            por nosso sistema. Pedimos para que se programe e não deixe isso acontecer, pois você pode ficar sem trabalhar,
+                            parado na estrada ou se atrasar para seus compromisos. Agora, foi bloqueado? Não se desespere, é só pagar as faturas em atraso
+                            e encaminhar o comprovante que seu carro vai ser liberado ligo em seguida.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <input class="input-2" type="checkbox" id="card5">
+                    <label class="subtitulo" for="card5">Como solicito veículo reserva? </label>
+                    <div class="esconde">
+                        <p>Caso seu veículo fique parado por mais de 48 horas após o envio da documentação, você ja tem direito a um carro reserva.
+                            É só entrar em contato conosco e retirar o veículo reserva caso necessite.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <input class="input-2" type="checkbox" id="card6">
+                    <label class="subtitulo" for="card6">Como faço para mudar de plano? </label>
+                    <div class="esconde">
+                        <p>Basta entrar em contaco com a 4Cars, informar o plano desejado e realizar o pagamento da diferença entre planos.
+                            Case migre para um plano mais barato, você terá desconto no pagamento da próxima fatura ou bônus para o aluguel do
+                            próximo veículo que você alugar.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <input class="input-2" type="checkbox" id="card7">
+                    <label class="subtitulo" for="card7">O que preciso para retirar o carro? </label>
+                    <div class="esconde">
+                        <p>Para garantir sua reserva, pedimos para que você pague a entrada, o valor do aluguel fica a seu critério,
+                            via cartão de crédito, boleto bancário ou PIX. Ai é só passar na agência de sua preferência e retirar seu 4Cars.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trabalhe-conosco">
+            <h1> Venha fazer parte de uma empresa que está mudando a direção de milhares de pessoas!  </h1>
+            <h2> A 4car quer transformar vidas unindo mobilidade, tecnologia e excelência!  </h2>
+            <h3> Confira as nossas oportunidades:</h3>
+            <h4> &#10024 Vagas 100% remotas &#10024</h4>
+            
+            <div>
+                <ul>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Analista de Melhoria Contínua</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Desenvolvedor Front-End Jr.</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Desenvolvedor Back-End Sr.</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Analista Tributário</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Assistente Administrativo</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Analista de Logística</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Supervisor de Qualidade</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Gerente de Operações</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Analista de Customer Experience</li></a>
+                    <a href="https://www.vagas.com.br/" target="_blank"><li> Analista de BI</li></a>
+                </ul>
+            </div>
+            <h4>A gente te conta como é fazer parte da família 4Cars &#10084</h4>
+            <div id="depoimentos">
+                <section> 
+                    <img src="img/Carol.PNG" alt="Foto de perfil da Carol">
+                    <p class="nome"><b>Caroline de Ávila</b></p>
+                    <p class="cargo"><i>Gerente de Marketing</i></p>
+                    <p class="depoimento">"A 4Cars foi uma empresa que me acolheu com muito carinho! É um lugar que preza pela qualidade de vida
+                        dos seus colaboradores, fornecendo todo o suporte necessário para superar os desafios diários."</p>
+                </section>
+                <section> 
+                    <img src="img/Vinicio.PNG" alt="Foto de perfil do Vinício">
+                    <p class="nome"><b>Vinício Cassimiro</b></p>
+                    <p class="cargo"><i>Gerente de Vendas</i></p>
+                    <p class="depoimento">"Fazer parte da 4Cars é muito gratificante! É uma empresa que busca ser referência em mobilidade.
+                        Saber que o meu esforço está melhorando a qualidade de vida de diversas pessoas é sensacional."</p>
+                </section>
+                <section> 
+                    <img src="img/Arissa.PNG" alt="Foto de perfil da Arissa">
+                    <p class="nome"><b>Arissa Otsu</b></p>
+                    <p class="cargo"><i>Gerente Administrativo</i></p>
+                    <p class="depoimento">"Trabalhar aqui na 4Cars é aprender algo novo todos os dias. É estar em contato com um time em que
+                        todos possuem um mesmo propósito: Impactar vidas, oferecendo serviços de alta qualidade."</p>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo-fim">
+            <a href="#inicio"><img src="img/4cars-logo-sem-fundo.png" alt="Logo - desenho de um carro laranja '4Cars' slogan:'Nosso carro sua chance.'"></a>
+        </div>
+        <div class="redes-sociais">
+            <h3>Sigam-nos:</h3>
+            <button><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></button>
+            <button><a href="https://twitter.com/login?lang=pt" target="_blank"><i class="fa-brands fa-twitter"></i></a></button>
+            <button><a href="https://pt-br.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></button>
+        </div>
+
+        
+        <div class="box">
+            <form action="#">
+                <fieldset>
+                    <legend>Fale conosco</legend>
+                    <div class="input-box">
+                        <input type="text" name="nome" id="nome-user" placeholder="Nome completo">
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" id="email-user" placeholder="Email">
+                        
+                    </div>
+                    <div class="input-box">
+                        <textarea name="assunto" id="assunto-user" placeholder="Assunto" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" name="submit" id="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+        
+
+    </footer>
+</body>
+</html>

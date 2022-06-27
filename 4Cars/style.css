@@ -1,0 +1,1024 @@
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: tahoma;
+}
+
+.logo-inicio img {
+    width: 20vw;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 25vw 3fr 1fr;
+    align-items: center;
+    
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu a::after {
+    content: "";
+    width: 0px;
+    height: 4px;
+    background-color: rgb(255, 92, 92);
+    display: grid;  
+    transition: all 0.5s;
+}
+
+.menu a:hover::after {
+    width: 50px;
+
+}
+
+.menu a:hover {
+    color: rgb(255, 92, 92);
+    transition: all 0.5s; 
+}
+
+header input {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(255, 92, 92);
+}
+
+header input:hover {
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#inicio .chamada {
+    display: grid;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    background-color: rgb(255, 92, 92);
+    padding: 5vw;
+    margin: 0 auto;
+}
+
+#inicio h1 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 2vw;
+}
+
+#inicio .localizar-carros input {
+    border-radius: 12px;
+    padding: 1vw;
+    width: 25vw;
+    margin-right: 2vw;
+    border: none;
+}
+
+.slogan {
+    position: relative;
+    color: white;
+    
+}
+.slogan img {
+    width: 100%;
+    
+} 
+
+.frase {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    
+    line-height: 100px;
+    
+
+}
+
+.frase h2 {
+    font-size: 5em;
+    padding-top: 10%;
+}
+
+.frase h2 {
+    font-size: 56px;
+}
+
+
+.frase span {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#tanque {
+    color:rgb(255, 92, 92);
+}
+
+
+.frase button {
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 1em;
+    border: none;
+    background-color: rgb(255, 92, 92);
+    color: white;
+    margin-left: 20px;
+}
+
+.frase button:hover {
+    background-color: white;
+    color:rgb(255, 92, 92);
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+/* Seção Quem Somos */
+#quem-somos {
+    margin-bottom: 50px;
+}
+
+#quem-somos h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 50px;
+    background-color: rgb(255, 92, 92); 
+    margin-bottom: 20px;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#quem-somos div{
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+#quem-somos div img{
+    width: 500px;
+}
+
+#quem-somos div ul{
+    list-style: none;
+}
+
+#quem-somos div ul li{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;   
+}
+
+#quem-somos div ul li div{
+    display: flex;
+    flex-direction: column;
+}
+
+#quem-somos div ul div p{
+    padding-top: 8px;
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
+#quem-somos div ul li img{
+    width: 80px;
+}
+
+#lista-icones{
+    padding-top: 30px;
+}
+
+/* Página Planos */
+
+.titulo-plano {
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(255, 92, 92);
+    padding: 14px;
+}
+
+.nav-planos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 14px;
+    align-items: center;
+    padding: 18px;
+}
+
+.div-planos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-plano {
+    width: 90%;  
+}
+
+
+.item-planos {
+    font-size: 26px;
+}
+
+.carros-passo {
+    background: #f2f2f2;
+    margin: 0;
+}
+
+.h2-background {
+    background-color: rgb(255, 92, 92);
+    font-size: 2em;
+    padding: 20px;
+}
+
+.pesquisa {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.pesquisa p {
+    font-size: 26px;
+}
+
+.input {
+    padding: 12px 26px;
+    width: 35%;
+}
+
+.botao {
+    padding: 12px 26px;
+
+}
+
+#perguntas {
+    margin-left: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Página Fale Conosco*/
+
+.container {
+    width: 50%;
+    margin: 2% auto;
+}
+
+.card {
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.input-2 {
+    display:  none;
+}
+
+.subtitulo {
+    display: inline-block;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+div label:hover {
+    background-color: rgb(255, 92, 92);
+    transition: all 0.5s; 
+}
+
+
+.esconde {
+    display: none;
+    padding: 8px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FFF;
+    animation: card3 .25s ease-in-out;
+    overflow: hidden;
+}
+
+.input-2:checked ~ .esconde {
+    display: block;
+}
+
+@keyframes esconde {
+    from {
+        height: 20px;
+    } to {
+        height: auto;
+    }
+}
+
+
+/* Seção Trabalhe Conosco*/
+
+#trabalhe-conosco h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 92, 92);
+    margin-top: 80px;
+    font-size: 2em;
+}
+
+#trabalhe-conosco h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.75em;
+}
+
+#trabalhe-conosco h3{
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+#trabalhe-conosco h4{
+    margin-left: 60px;
+    margin-bottom: 20px;   
+    font-size: 1.5em; 
+}
+
+#trabalhe-conosco div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin-top: 4vh;
+    row-gap: 3vh;
+    margin-bottom: 6vh;
+}
+
+#trabalhe-conosco div ul li {
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    color: rgb(255, 92, 92);
+    height: 10vh;   
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 1.5em; 
+}
+
+#trabalhe-conosco div ul a {
+    text-decoration: none;  
+}
+
+#trabalhe-conosco div ul a:hover {
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 92, 92);
+}
+
+#depoimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 4vh;
+}
+
+#depoimentos section {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(165, 165, 165);
+    border-radius: 20px;
+    padding-top: 2vh;
+    width: 500px;
+    line-height: 35px;
+}
+
+#depoimentos section img {
+    border-radius: 20px;
+    width: 400px;
+}
+
+#depoimentos section p b {
+    color: rgb(255, 92, 92)
+}
+
+#depoimentos section p i {
+    color: rgb(255, 92, 92)
+}
+
+.nome {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.cargo  {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.depoimento {
+    text-align: justify;
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* FOOTER - ultima parte do codigo */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.623);
+    margin-top: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.logo-fim img {
+    width: 30vw;
+    position: relative;
+    right: 10vw
+    
+}
+
+.redes-sociais {
+    line-height: 5em;
+    margin-left: 2px;
+    align-items: center;
+}
+
+.redes-sociais h3 {
+    font-size: 30px;
+    line-height:5em;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.redes-sociais button {
+    font-size: 30px;
+    padding: 0.5em;
+    background-color: rgb(255, 92, 92);
+    border: none;
+    border-radius: 12px;
+    margin-left: 18px;
+}
+
+.redes-sociais button i { 
+    font-size: 34px;
+    color: black;
+}
+
+.box {
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    
+
+}
+fieldset {
+    border-radius: 12px;
+    border: 1px solid rgb(255, 92, 92);
+    font-size: 24px
+}
+.input-box {
+    padding: 5px;
+}
+
+.input-box input {
+    padding: 15px;
+    padding-right: 175px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 12px;
+    font-family: tahoma;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-box textarea {
+    padding-right: 50px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 12px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#submit {
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    font-family: tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 92, 92);
+}
+
+#submit:hover {
+    background-color: black;
+    color: rgb(255, 92, 92);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+/* MOBILE */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+     
+    * {
+        margin: 0 auto;
+        padding: 0 auto;
+        font-family: tahoma;
+        
+    }
+
+    .logo-inicio img {
+        width: 25vw;
+    }
+
+    header {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+
+        
+    }
+    .menu ul {
+        display: flex;
+        list-style: none;
+        
+    }
+    .menu li {
+        margin-left: -1em
+    }
+    .menu a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    header input {
+        padding: 7px;
+        font-size: 10px;
+        font-weight: bold;
+        border-radius: 12px;
+        border: none;
+        background-color: rgb(255, 92, 92);
+    }
+
+    #inicio .chamada {
+        display: grid;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+        background-color: rgb(255, 92, 92);
+        padding: 5vw;
+        margin: 0 auto;
+    }
+    #inicio .chamada input{
+        font-size: 10px;
+    }
+
+    #inicio h1 {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-bottom: 2vw;
+    }
+
+    #inicio .localizar-carros input {
+        border-radius: 12px;
+        padding: 1vw;
+        width: 25vw;
+        margin-right: 2vw;
+        border: none;
+    }
+
+    .slogan {
+        position: relative;
+        color: white;
+        
+    }
+    .slogan img {
+        width: 100%;
+        
+    } 
+
+    .frase {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        text-align: center;
+        background-color: rgba(0,0,0,0.5);
+        line-height: 30px;  
+
+    }
+
+    .frase h2 {
+        font-size: 10px;
+        padding-top: 3%;
+    }
+
+    .frase h2 {
+        font-size: 1.5em;
+    }
+
+
+    .frase span {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    #tanque {
+        color:rgb(255, 92, 92);
+    }
+
+
+    .frase button {
+        padding: 8px;
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 1em;
+        border: none;
+        background-color: rgb(255, 92, 92);
+        color: white;
+        margin-left: 20px;
+    }
+
+    /* Seção Quem Somos */
+    #quem-somos {
+        margin-bottom: 80px;
+    }
+
+    #quem-somos h1{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 30px;
+        background-color: rgb(255, 92, 92); 
+        margin-bottom: 20px;
+        font-size: 1em;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #quem-somos div{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+
+    #quem-somos div img{
+        width: 75px;
+    }
+
+    #quem-somos div ul{
+        list-style: none;
+    }
+
+    #quem-somos div ul li{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 6fr 1fr; 
+    }
+
+    #quem-somos div ul li div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #quem-somos div ul div p{
+        padding-top: 8px;
+        line-height: 25px;
+        font-size: 1em;
+    }
+
+    #quem-somos div ul div h2{
+        font-size: 1.2em;
+    }
+
+    #quem-somos div ul li img{
+        width: 40px;
+    }
+
+    #lista-icones{
+        padding-top: 30px;
+    }
+
+    /* Página Planos */
+
+    .titulo-plano {
+        text-align: center;
+        font-size: 0.8em;
+        background-color: rgb(255, 92, 92);
+        padding: 14px;
+        
+    }
+
+    .nav-planos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 14px;
+        align-items: center;
+        padding: 18px;
+    }
+
+    .div-planos {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .div-planos p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .card-plano {
+        width: 90%;  
+    }
+
+
+    .item-planos {
+        font-size: 26px;
+    }
+
+    .carros-passo {
+        background: #f2f2f2;
+        margin: 0;
+    }
+
+    .h2-background {
+        background-color: rgb(255, 92, 92);
+        font-size: 1.3em;
+        padding: 1em;
+    }
+
+    .pesquisa {
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+
+    .pesquisa p {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    .input {
+        padding: 0.5em 1em;
+        width: 35%;
+    }
+
+    .botao {
+        padding: 0.5em 1em;
+
+    }
+
+    #perguntas {
+        font-size: 1.2em;
+        line-height: 1.2em;
+        text-align: center;
+    }
+
+    /* Página Fale Conosco*/
+
+    .container {
+        width: 100%;
+        margin: 2% auto;
+    }
+
+    .card {
+        margin-top: 0.3em;
+        padding: 0.3em;
+    }
+
+    .input-2 {
+        display:  none;
+    }
+
+    .subtitulo {
+        display: inline-block;
+        width: 100%;
+        padding: 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 5px;
+
+    }
+
+    div label:hover {
+        background-color: rgb(255, 92, 92);
+        transition: all 0.5s; 
+    }
+
+
+    .esconde {
+        display: none;
+        padding: 8px;
+        margin-top: 8px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #FFF;
+        animation: card3 .25s ease-in-out;
+        overflow: hidden;
+    }
+
+    .input-2:checked ~ .esconde {
+        display: block;
+    }
+
+    @keyframes esconde {
+        from {
+            height: 20px;
+        } to {
+            height: auto;
+        }
+    }
+
+
+    /* Seção Trabalhe Conosco*/
+
+    #trabalhe-conosco h1{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(255, 92, 92);
+        margin-top: 80px;
+        font-size: 1.2em;
+    }
+
+    #trabalhe-conosco h2{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 1em;
+    }
+
+    #trabalhe-conosco h3{
+        margin-left: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1em;
+    }
+
+    #trabalhe-conosco h4{
+        margin-left: 1em;
+        margin-bottom: 20px;   
+        font-size: 1em; 
+        text-align: center;
+    }
+
+    #trabalhe-conosco div ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -35px;
+        list-style: none;
+        margin-top: 4vh;
+        row-gap: 3vh;
+        margin-bottom: 6vh;
+    }
+
+    #trabalhe-conosco div ul li {
+        border: 2px solid rgb(165, 165, 165);
+        border-radius: 10px;
+        color: rgb(255, 92, 92);
+        height: 6vh;   
+        width: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        font-size: 0.8em; 
+    }
+
+    #trabalhe-conosco div ul a {
+        text-decoration: none;  
+    }
+
+    #trabalhe-conosco div ul a:hover {
+        text-decoration:underline;
+        text-decoration-color: rgb(255, 92, 92);
+    }
+
+    #depoimentos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    #depoimentos section {
+        display: flex;
+        flex-direction: column;
+        border: 4px solid rgb(165, 165, 165);
+        margin-top: 4vh;
+        border-radius: 20px;
+        padding-top: 2vh;
+        width: 100%;
+        line-height: 1.2em;
+
+    }
+
+    #depoimentos section img {
+        border-radius: 20px;
+        width: 10em;
+    }
+
+    #depoimentos section p b {
+        color: rgb(255, 92, 92)
+    }
+
+    #depoimentos section p i {
+        color: rgb(255, 92, 92)
+    }
+
+    .nome {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .cargo  {
+        text-align: center;
+        font-size: 1em;
+        margin-top: 5px;
+    }
+
+    .depoimento {
+        text-align: justify;
+        font-size: 1em;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    /* FOOTER - ultima parte do codigo */
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.623);
+        margin-top: 5vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .logo-fim img {
+        display:none;
+    }
+    
+    .redes-sociais {
+        line-height: 5em;
+        margin-left: 4.5em;
+    }
+    
+    .redes-sociais h3 {
+        display: none;
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    .redes-sociais button {
+        font-size: 1em;
+        padding: 0.5em;
+        background-color: rgb(255, 92, 92);
+        border: none;
+        border-radius: 12px;
+    }
+
+    .redes-sociais button i { 
+        font-size: 34px;
+        color: black;
+    }
+
+    .box {
+        display: none;
+    }
+}
